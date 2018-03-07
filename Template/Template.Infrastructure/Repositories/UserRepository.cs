@@ -10,7 +10,17 @@ namespace Template.Infrastructure.Repositories
     {
         public void Insert(User user)
         {
-            //SAVE TO DB
+            //SAVE TO DB.
+            //USER IS NOT YOUR DB ENTITY IT IS YOUR DOMAIL MODEL
+        }
+
+
+
+        public class UserRecord
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public int Age { get; set; }
         }
     }
 }
