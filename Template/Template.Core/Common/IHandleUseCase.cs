@@ -1,4 +1,4 @@
-﻿namespace Template.Core.UseCases.Interface
+﻿namespace Template.Core.UseCases.Common
 {
     public interface IHandleUseCase<Request, Response>
     {

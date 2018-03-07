@@ -1,11 +1,8 @@
 ﻿using Autofac;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Template.Core.Interfaces;
-using Template.Core.Repositories;
-using Template.Core.UseCases.AddUserUseCase;
-using Template.Core.UseCases.Interface;
+using Template.Core.UseCases;
+using Template.Core.UseCases.Common;
+using Template.Core.User;
+using Template.Core.User.UseCases.AddUserUseCase;
 
 namespace Template.Infrastructure.Installers
 {

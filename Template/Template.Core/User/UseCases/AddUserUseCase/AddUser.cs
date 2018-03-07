@@ -1,8 +1,6 @@
-﻿using Template.Core.Data.Entities;
-using Template.Core.Interfaces;
-using Template.Core.UseCases.Interface;
+﻿using Template.Core.UseCases.Common;
 
-namespace Template.Core.UseCases.AddUserUseCase
+namespace Template.Core.User.UseCases.AddUserUseCase
 {
     public class AddUser : IHandleUseCase<AddUserRequest, AddUserResponse>
     {
@@ -16,7 +14,7 @@ namespace Template.Core.UseCases.AddUserUseCase
         {
             //TODO VALIDATION
 
-            var user = User.Create(request.Name, request.Age);
+            var user = Entities.User.Create(request.Name, request.Age);
             userRepository.Insert(user);
 
             return new AddUserResponse

@@ -1,4 +1,4 @@
-﻿namespace Template.Core.UseCases.AddUserUseCase
+﻿namespace Template.Core.User.UseCases.AddUserUseCase
 {
     public class AddUserResponse
     {

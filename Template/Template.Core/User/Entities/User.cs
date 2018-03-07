@@ -1,4 +1,4 @@
-﻿namespace Template.Core.Data.Entities
+﻿namespace Template.Core.User.Entities
 {
     public class User //DOMAIN MODEL
     {

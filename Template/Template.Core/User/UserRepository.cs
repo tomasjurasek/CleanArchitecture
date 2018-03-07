@@ -1,11 +1,10 @@
-﻿using Template.Core.Data.Entities;
-using Template.Core.Interfaces;
+﻿using Template.Core.User;
 
-namespace Template.Core.Repositories
+namespace Template.Core.User
 {
     public class UserRepository : IUserRepository
     {
-        public void Insert(User user)
+        public void Insert(Entities.User user)
         {
             //SAVE TO DB.
             //USER IS NOT YOUR DB ENTITY IT IS YOUR DOMAIL MODEL
