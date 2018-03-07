@@ -28,12 +28,12 @@ namespace Template.Core.User.Entities
         {
             if (string.IsNullOrEmpty(name))
             {
-                throw new ArgumentNullException(nameof(name));
+                throw new ArgumentNullException($"{nameof(name)} - {name}");
             }
 
             if (age <= 0)
             {
-                throw new ArgumentNullException(nameof(age));
+                throw new ArgumentNullException($"{nameof(age)} - {age}");
             }
         }
     }

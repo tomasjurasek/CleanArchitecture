@@ -24,7 +24,7 @@ namespace Template.API.Areas.User.Controllers
         [HttpPost]
         public IActionResult CreateUser(AddUserRequest request)
         {
-            var response = addUserUseCase.Handle(request);
+            var response = addUserUseCase.Handle(request); // HANDLE EXCEPTION FOR YOUR UI
             return Ok(response);
         }
        
