@@ -12,15 +12,21 @@ namespace Template.Core.User.UseCases.AddUserUseCase
         }
         public AddUserResponse Handle(AddUserRequest request)
         {
-            //TODO VALIDATION
-
-            var user = Entities.User.Create(request.Name, request.Age);
-            userRepository.Insert(user);
-
-            return new AddUserResponse
+            try
             {
-                UserId = user.Id
-            };
+                var user = Entities.User.Create(request.Name, request.Age);
+                userRepository.Insert(user);
+
+                return new AddUserResponse
+                {
+                    UserId = user.Id
+                };
+            }
+            catch (System.Exception)
+            {
+                throw;
+            }
+           
         }
     }
 }
