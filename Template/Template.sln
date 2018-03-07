@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.API", "Template.API\Template.API.csproj", "{D36A4E28-6657-4DDF-8E2B-E9D1BF6378AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.API", "Template.API\Template.API.csproj", "{D36A4E28-6657-4DDF-8E2B-E9D1BF6378AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Core", "Template.Core\Template.Core.csproj", "{E35C8090-D86E-444F-AF0C-407153A8B343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Core", "Template.Core\Template.Core.csproj", "{E35C8090-D86E-444F-AF0C-407153A8B343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Infrastructure", "Template.Infrastructure\Template.Infrastructure.csproj", "{3DE6245A-C7EE-41BE-BDA4-043D5A9F96F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template.Infrastructure", "Template.Infrastructure\Template.Infrastructure.csproj", "{3DE6245A-C7EE-41BE-BDA4-043D5A9F96F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

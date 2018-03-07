@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Template.Core.Entities
+﻿namespace Template.Core.Data.Entities
 {
     public class User //DOMAIN MODEL
     {

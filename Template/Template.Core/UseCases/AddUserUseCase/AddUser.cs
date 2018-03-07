@@ -1,9 +1,8 @@
-﻿using System;
-using Template.Core.Entities;
+﻿using Template.Core.Data.Entities;
 using Template.Core.Interfaces;
 using Template.Core.UseCases.Interface;
 
-namespace Template.Infrastructure.UseCases.AddUserUseCase
+namespace Template.Core.UseCases.AddUserUseCase
 {
     public class AddUser : IHandleUseCase<AddUserRequest, AddUserResponse>
     {

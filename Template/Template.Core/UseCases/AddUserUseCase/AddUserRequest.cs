@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Template.Infrastructure.UseCases.AddUserUseCase
+namespace Template.Core.UseCases.AddUserUseCase
 {
     public class AddUserRequest
     {
