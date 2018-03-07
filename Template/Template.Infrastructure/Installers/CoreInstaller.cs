@@ -3,6 +3,7 @@ using Template.Core.UseCases;
 using Template.Core.UseCases.Common;
 using Template.Core.User;
 using Template.Core.User.UseCases.AddUserUseCase;
+using Template.Infrastructure.Database.Repositores;
 
 namespace Template.Infrastructure.Installers
 {
