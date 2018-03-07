@@ -19,8 +19,8 @@ namespace Template.Infrastructure.Installers
                 .InstancePerDependency();
 
 
-            builder.RegisterType<IHandleUseCase<AddUserRequest, AddUserResponse>>()
-               .As<AddUser>()
+            builder.RegisterType<AddUser>()
+               .As<IHandleUseCase<AddUserRequest, AddUserResponse>>()
                .InstancePerDependency();
 
         }
